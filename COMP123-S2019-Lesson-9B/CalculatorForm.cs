@@ -16,5 +16,12 @@ namespace COMP123_S2019_Lesson_9B
         {
             InitializeComponent();
         }
+
+        private void ButtonEq_Click(object sender, EventArgs e)
+        {
+            var TheButton = sender as Button;
+            int result = int.Parse(TheButton.Text);
+            ResultLabel.Text = TheButton.Text;
+        }
     }
 }
