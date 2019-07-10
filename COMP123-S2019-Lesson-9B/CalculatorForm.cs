@@ -31,5 +31,25 @@ namespace COMP123_S2019_Lesson_9B
                 ResultLabel.Text = "Not a Number (NAN)";
             }
         }
+
+        private void ResultLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ButtonClear_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
